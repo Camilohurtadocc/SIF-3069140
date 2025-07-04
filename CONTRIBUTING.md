@@ -66,14 +66,23 @@ Closes #45
 ## Tipos de commit permitidos
  # Tipo	Uso
 -feat	Agrega una nueva funcionalidad para el usuario final.
+
 -fix	Corrige errores que afectan al usuario.
+
 -docs	Modificaciones a la documentación.
+
 -style	Cambios que no afectan la lógica (espacios, formato, etc.).
+
 -refactor	Cambios en el código que no alteran funcionalidad ni corrigen errores.
+
 -test	Adición o actualización de pruebas.
+
 -chore	Cambios menores (scripts, dependencias, tareas).
+
 -merge	Fusión de ramas.
+
 -release	Publicación de una nueva versión del sistema.
+
 
 ## Alcance (<scope>) 
 Representa el módulo o componente afectado. Puede dejarse vacío si el cambio afecta al sistema completo.
