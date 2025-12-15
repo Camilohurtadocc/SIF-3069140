@@ -4,7 +4,6 @@ import { HealthController } from '../controllers/health.controller.js';
 const router = Router();
 
 // Ruta raíz GET /
-// Sirve para confirmar que el backend está vivo
 router.get('/', (req, res) => {
   res.status(200).json({ 
     status: 'OK', 
@@ -16,3 +15,4 @@ router.get('/', (req, res) => {
 router.get('/health', HealthController.check);
 
 export default router;
+
