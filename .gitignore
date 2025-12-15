@@ -1,0 +1,18 @@
+# ======================
+# Frontend (Vite / React)
+# ======================
+03-DEVELOP/FRONT-END/node_modules/
+03-DEVELOP/FRONT-END/dist/
+
+# ======================
+# Backend (Node / Express)
+# ======================
+03-DEVELOP/BACKEND/node_modules/
+.env
+.env.local
+
+# ======================
+# Sistema / Editor
+# ======================
+.vscode/
+.DS_Store
