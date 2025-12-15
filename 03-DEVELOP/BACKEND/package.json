@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "node src/index.js",
     "dev": "npx nodemon src/index.js"
   },
   "keywords": [],
@@ -26,4 +26,5 @@
     "nodemon": "^3.1.10"
   },
   "description": ""
+  
 }
